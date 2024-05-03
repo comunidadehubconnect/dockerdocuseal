@@ -86,9 +86,13 @@ networks:
 Obs: Lembre-se de alterar campos com as informações necessárias.
 
 POSTGRES_USERNAME: user_name
+<br>
 POSTGRES_PASSWORD: suasenhapostgres
+<br>
 POSTGRES_DATABASE: seu_database
+<br>
 - "traefik.http.routers.docuseal.rule=Host(`dodocuseal.seudominio.com.br`)"
+<br>
 
 Após toda alteração, podemos desativar o Enable access control e clicar em Deploy the stack
 
