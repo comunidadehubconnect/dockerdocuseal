@@ -40,7 +40,7 @@ Colocamos o nome da stack (recomendo deixar Docuseal)
 ![image](https://github.com/cwmkt/docuseal/assets/91642837/8355043f-7e94-4c4e-a78d-a7cf5ff82903)
 
 
-Cole a stack do Docuseal abaixo no seu portainer:
+#### Cole a stack do Docuseal abaixo no seu portainer:
 
 ```bash
 version: "3.8"
@@ -83,16 +83,12 @@ networks:
     name: ecosystem_network
 ```
 
-Obs: Lembre-se de alterar campos com as informações necessárias.
+### Obs: Lembre-se de alterar campos com as informações necessárias:
 
-POSTGRES_USERNAME: user_name
-<br>
-POSTGRES_PASSWORD: suasenhapostgres
-<br>
-POSTGRES_DATABASE: seu_database
-<br>
-- "traefik.http.routers.docuseal.rule=Host(`dodocuseal.seudominio.com.br`)"
-<br>
+POSTGRES_USERNAME: user_name <br>
+POSTGRES_PASSWORD: suasenhapostgres <br>
+POSTGRES_DATABASE: seu_database <br>
+- "traefik.http.routers.docuseal.rule=Host(`dodocuseal.seudominio.com.br`)" <br>
 
 Após toda alteração, podemos desativar o Enable access control e clicar em Deploy the stack
 
