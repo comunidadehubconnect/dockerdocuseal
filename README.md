@@ -10,8 +10,6 @@
 <hr />
 <hr />
 
-Postgres
-
 ### Caso não tenha Portainer e Traefix instalado, siga primeira etapa
 
 <details>
